@@ -9,7 +9,7 @@ defmodule VideoChat do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the Ecto repository
-      #supervisor(VideoChat.Repo, []),
+      #      supervisor(VideoChat.Repo, []),
       # Start the endpoint when the application starts
       supervisor(VideoChat.Endpoint, []),
       # Start your own worker by calling: VideoChat.Worker.start_link(arg1, arg2, arg3)
